@@ -65,7 +65,7 @@ serveur.post("/api/articles", (requete, reponse) => {
 
 // GET /about -> informations sur l'application
 serveur.get("/about", (requete, reponse) => {
-  reponse.json({ application: "API du blog", auteur: "Mohamed Jegham", version: "1.0.0" });
+  reponse.json({ application: "API du blog", auteur: "Mohamed Aziz Mansour", version: "1.0.0" });
 });
 
 // Annuaire des membres (en mémoire, comme les articles)

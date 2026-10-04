@@ -29,4 +29,4 @@ npm run dev   # http://localhost:3000 (recharge auto)
 - `captures/` – preuves Postman
 - `compte-rendu/rapport-TP1.pdf` – rapport (`node compte-rendu/generer-pdf.js` pour le régénérer)
 
-Mohamed Jegham – 5ème DS G3 – EPS 2026/2027
+Mohamed Aziz Mansour – 5ème DS G3 – EPS 2026/2027

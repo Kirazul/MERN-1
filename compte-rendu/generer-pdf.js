@@ -8,7 +8,7 @@ const RACINE = path.join(__dirname, "..");
 const PREUVES = path.join(RACINE, "captures");
 
 // ---- À PERSONNALISER ------------------------------------------------------
-const ETUDIANT = { nom: "Mohamed Jegham", groupe: "5ème DS G3" };
+const ETUDIANT = { nom: "Mohamed Aziz Mansour", groupe: "5ème DS G3" };
 const DEPOT_GIT = "https://github.com/Kirazul/MERN-1";
 // ---------------------------------------------------------------------------
 
@@ -48,7 +48,7 @@ const sortieNotions = execFileSync(process.execPath, ["notions-js.js"], {
 
 const tableauStatuts = [
   ["GET", "/api/articles", "–", "200 OK", "Affichage de la collection : tout s'est bien passé.", "Capture1.PNG"],
-  ["POST", "/api/articles", '{ "title": "Mon premier article", "author": "Jegham Mohamed" }', "201 Created", "Les deux champs fournis : le billet numéro 4 est ajouté.", "Capture2.PNG"],
+  ["POST", "/api/articles", '{ "title": "Mon premier article", "author": "Aziz Mansour" }', "201 Created", "Les deux champs fournis : le billet numéro 4 est ajouté.", "Capture2.PNG"],
   ["GET", "/api/articles/4", "–", "200 OK", "Le billet créé reste accessible tant que le processus tourne.", "Capture3.PNG"],
   ["POST", "/api/articles", '{ "title": "Sans auteur" }', "400 Bad Request", "Le champ <code>author</code> est absent : le contrôle bloque la demande.", "Capture4.PNG"],
   ["GET", "/api/articles/99", "–", "404 Not Found", "Aucun billet ne porte l'identifiant 99.", ""],
