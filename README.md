@@ -1,6 +1,6 @@
-# MERN TP1 – Ma première API Express
+# MERN TP1 
 
-Mini API blog en Node.js + Express (données en mémoire).
+Node.js + Express 
 
 ## Lancer
 
